@@ -154,3 +154,21 @@ body {
     }
   }
   
+
+  .invisible-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    font-size: 1.05rem;
+  }
+  .invisible-table td {
+    border: none;
+    background: none;
+    padding: 0.5em 1em 0.5em 0;
+    vertical-align: top;
+  }
+  .invisible-table tr {
+    border: none;
+    background: none;
+  }
+  
