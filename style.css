@@ -301,3 +301,30 @@ body {
     margin-top: 1.2em;
   }
   
+
+  .profile-links {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .profile-link-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 220px;   /* Set a fixed width or adjust as needed */
+    margin: 0 auto 0.18em auto;
+    gap: 0;         /* Ensures zero added gap between items */
+  }
+  
+  .profile-link-row a {
+    font-size: 1.35em;
+    color: #3ddad7;
+    text-decoration: none;
+    padding: 0 0.1em; /* Minimal side space for clickability */
+  }
+  
+  .profile-link-row a b {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  
