@@ -359,3 +359,15 @@ body {
       display: inline-block;
     }
   }
+
+
+header nav a.active,
+header nav a:active {
+  background: #243a6b !important; /* Strong navy blue */
+  color: #fff !important;         /* White text for contrast */
+  border-radius: 7px;
+}
+
+header nav a {
+  transition: background 0.17s, color 0.17s;
+}
