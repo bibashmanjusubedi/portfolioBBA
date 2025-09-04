@@ -278,3 +278,26 @@ body {
     color: #aee4e7;
   }
   
+
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+    list-style: none;
+    padding: 0;
+    margin-top: 1.2em;
+  }
+  .skills-grid li {
+    background: rgba(36,58,107,0.11);
+    padding: 0.5em 1.2em;
+    border-radius: 8px;
+    margin: 0 0.2em 0.6em 0;
+    font-size: 1.08em;
+    color: #aee4e7;
+  }
+  .skills-section h2, .skills-section h3 {
+    color: #3ddad7;
+    margin-bottom: 0.38em;
+    margin-top: 1.2em;
+  }
+  
