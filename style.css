@@ -4,16 +4,23 @@ body {
     color: #fff;
     font-family: 'Segoe UI', Arial, sans-serif;
   }
-  
+
+
   header {
     background: #fff;
     color: #134e4a;
     padding: 1.5rem 2rem 1rem 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* Remove justify-content: space-between; */
   }
   
+  header nav {
+    margin-left: auto; /* This pushes it to the right edge */
+    display: flex;
+    align-items: center;
+  }
+
   header nav a {
     color: #134e4a;
     margin: 0 1rem;
@@ -21,6 +28,7 @@ body {
     font-weight: 600;
     font-size: 1.1em;
   }
+  
   
   header nav a:hover {
     text-decoration: underline;
@@ -328,3 +336,26 @@ body {
     font-weight: bold;
   }
   
+
+  @media (max-width: 700px) {
+    header {
+      flex-direction: column;
+      align-items: stretch;
+      padding: 1.1rem 0.5rem;
+    }
+  
+    header nav {
+      margin-left: 0;
+      margin-top: 0.8em;
+      justify-content: center;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+  
+    header nav a {
+      margin: 0.7em 0.7em 0 0;
+      font-size: 1.07em;
+      padding: 0.35em 0.7em;
+      display: inline-block;
+    }
+  }
