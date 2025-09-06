@@ -488,3 +488,15 @@ header nav a {
     height: 54px;
   }
 }
+
+.project-repo-link {
+  color: #ffffff;
+  text-decoration: underline solid;
+  transition: color 0.18s;
+}
+
+.project-repo-link:hover, 
+.project-repo-link:focus {
+  color: #3ddad7;         /* Or any color you want on hover */
+  text-decoration: underline solid;
+}
