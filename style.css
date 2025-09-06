@@ -622,3 +622,67 @@ header nav a {
   font-size: 0.93em;
   margin-top: 0.16em;
 }
+
+
+.project-meta {
+  color: #87cccc;
+  font-size: 1.04em;
+  margin-bottom: 0.32em;
+}
+
+.project-skills {
+  margin: 0.5em 0 0.9em 0;
+  color: #aee4e7;
+  font-size: 1.04em;
+}
+
+.project-skills span,
+.project-skills a.project-skill-link {
+  color: #aee4e7;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 0.1em;
+}
+
+.project-skills a.project-skill-link:hover {
+  color: #3ddad7;
+  text-decoration: underline dotted;
+}
+
+.project-media {
+  display: flex;
+  gap: 0.7em;
+  margin-bottom: 0.45em;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-img-thumb {
+  width: 82px;
+  height: 82px;
+  object-fit: cover;
+  border-radius: 7px;
+  background: #212d36;
+  border: 1.5px solid #3ddad7;
+  box-shadow: 0 1.5px 8px rgba(0,0,0,.08);
+  margin: 0.12em 0;
+  transition: outline 0.15s, transform 0.11s;
+  cursor: pointer;
+}
+.project-img-thumb:hover {
+  outline: 2px solid #3ddad7;
+  transform: scale(1.03);
+}
+
+.project-showall {
+  color: #3ddad7;
+  font-size: 1em;
+  text-decoration: underline dotted;
+  margin-left: 0.3em;
+  font-weight: 600;
+}
+
+.project-showall:hover {
+  color: #fff;
+  text-decoration: underline solid;
+}
