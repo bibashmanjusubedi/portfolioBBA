@@ -460,7 +460,8 @@ header nav a {
 }
 
 .experience-media img {
-  height: 72px;
+  height: 150px;
+  width:150px;
   border-radius: 9px;
   box-shadow: 0 2px 8px rgba(0,0,0, .08);
   background: #222d36;
@@ -686,3 +687,9 @@ header nav a {
   color: #fff;
   text-decoration: underline solid;
 }
+
+@media (max-width: 700px) {
+  .experience-media img {
+    height: 80px;
+    width: 80px;
+  }
