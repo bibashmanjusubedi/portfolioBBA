@@ -589,3 +589,36 @@ header nav a {
   font-size: 0.93em;
   margin-left: 0.9em;
 }
+
+
+.affiliation {
+  display: flex;
+  align-items: center;
+  gap: 0.9em;
+  color: #aee4e7;
+  background: rgba(36,58,107,0.11);
+  border-radius: 9px;
+  padding: 0.7em 1.3em;
+  margin-bottom: 0.95em;
+  font-size: 1.04em;
+}
+
+.affiliation .cert-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #222d36;
+  flex-shrink: 0;
+}
+
+.aff-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.aff-meta {
+  color: #b7e4e3;
+  font-size: 0.93em;
+  margin-top: 0.16em;
+}
