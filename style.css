@@ -696,3 +696,68 @@ header nav a {
 }
 
 
+@media (max-width: 900px) {
+  .project-list-singlecol > div,
+  .profile-about-row > .about-main > div[style*="display: flex"] {
+    flex-direction: column !important;
+    gap: 1.2rem !important;
+    align-items: stretch !important;
+  }
+  .profile-about-row > .about-main > div[style*="display: flex"] > div {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  body,
+  .about-main,
+  section.hero {
+    font-size: 1rem !important;
+  }
+  nav a {
+    font-size: 1em;
+    padding: 8px 10px;
+    display: inline-block;
+  }
+  .project-list-singlecol > div,
+  .profile-about-row > .about-main > div[style*="display: flex"] {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    align-items: stretch !important;
+  }
+  /* Force all inner flexes (for text-image rows) to column on small screens */
+  .project-list-singlecol > div > div[style*="display: flex"],
+  .profile-about-row > .about-main > div[style*="display: flex"] > div[style*="display: flex"] {
+    flex-direction: column !important;
+    gap: 0.8rem !important;
+    align-items: stretch !important;
+  }
+  /* Images scaling for mobile */
+  .project-list-singlecol img,
+  .profile-about-row img,
+  img.project-img-thumb {
+    width: 100% !important;
+    max-width: 340px !important;
+    height: auto !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Make skills grid stack columns */
+  .skills-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.6rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  h2, h3 {
+    font-size: 1em !important;
+  }
+  body, section.hero {
+    font-size: 0.97em !important;
+  }
+  nav a {
+    font-size: 14px !important;
+  }
+}
